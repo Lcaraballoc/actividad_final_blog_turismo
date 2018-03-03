@@ -1,0 +1,14 @@
+.row, .col{
+  border: 2px solid black;
+}
+
+body{
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fi-social-facebook{
+  font-size: 72px;
+}

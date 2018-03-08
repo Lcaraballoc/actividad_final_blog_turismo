@@ -12,3 +12,7 @@ body{
 .fi-social-facebook{
   font-size: 72px;
 }
+
+.no-padding{
+  padding:0px;
+}

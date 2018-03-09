@@ -1,6 +1,3 @@
-.row, .col{
-  border: 2px solid black;
-}
 
 body{
   background-image: url(../img/background.jpg);
@@ -9,10 +6,48 @@ body{
   background-attachment: fixed;
 }
 
-.fi-social-facebook{
+.fi-social-facebook, .fi-social-twitter, .fi-social-instagram, .fi-social-snapchat{
   font-size: 72px;
+
+}
+.logo{
+  border: 2px solid black;
+}
+.no-padding{
+  padding-top:15px !important;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
 
-.no-padding{
-  padding:0px;
+.contenedor-comentarios{
+  background-color: #26a69a;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.deje-comentario{
+  background-color: #ffcc80 ;
+  color: black;
+}
+.superior{
+  padding-top: 15px !important;
+}
+h3{
+  margin-bottom:0px;
+  font-style: italic;
+  text-decoration: underline;
+}
+.imagen-flotante{
+  float: left;
+  width: 50%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+@media(max-width:600px){
+  .imagen-flotante{
+    float: none;
+    width: 100%;
+  }
 }
